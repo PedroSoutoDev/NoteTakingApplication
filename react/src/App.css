@@ -1,0 +1,86 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-idInput {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 5vh;
+}
+
+.App-textInput {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 2vh;
+  overflow: scroll;
+}
+
+.App-buttons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+}
+
+.App-greenButton {
+  background-color: green;
+  color: black;
+  width: 10%;
+  padding: 1vh;
+}
+
+.App-redButton {
+  background-color: red;
+  color: black;
+  width: 10%;
+  padding: 1vh;
+}
+
+.App-notes {
+  border-style: solid;
+  border-color: black;
+  border-width: 2px;
+  margin: auto;
+  max-height: 30vh;
+  max-width: 50%;
+  overflow-y: scroll;
+}
+
+.TextboxStyle {
+  width: 500px;
+  height: 150px;
+  overflow: auto;
+}
+
+.App-items {
+  padding: 10px;
+}
+
+.App-text {
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+  padding: 4px;
+  margin: auto;
+  max-width: 80%;
+  text-align: center;
+}
+
+::placeholder {
+  text-align: center;
+}
